@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88916B211CF0DF2F00469F91"
-               BuildableName = "MessageKit.framework"
-               BlueprintName = "MessageKit"
-               ReferencedContainer = "container:../MessageKit.xcodeproj">
+               BlueprintIdentifier = "882B5E321CF7D4B900B6E160"
+               BuildableName = "ChatExample.app"
+               BlueprintName = "ChatExample"
+               ReferencedContainer = "container:ChatExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry

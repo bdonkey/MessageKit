@@ -29,9 +29,9 @@ import SafariServices
 final class InboxViewController: UITableViewController {
 
     let cells = ["Example", "Settings", "Source Code", "Contributers"]
-    
+
     // MARK: - View Life Cycle
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "MessageKit"
@@ -41,7 +41,7 @@ final class InboxViewController: UITableViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.tableFooterView = UIView()
     }
-    
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         if #available(iOS 11.0, *) {

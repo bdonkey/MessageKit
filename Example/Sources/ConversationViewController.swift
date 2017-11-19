@@ -61,11 +61,11 @@ class ConversationViewController: MessagesViewController {
                                                             target: self,
                                                             action: #selector(handleKeyboardButton))
     }
-    
-    @objc func handleKeyboardButton() {
-        
+@objc func handleKeyboardButton() {
+
         messageInputBar.inputTextView.resignFirstResponder()
-        let actionSheetController = UIAlertController(title: "Change Keyboard Style", message: nil, preferredStyle: .actionSheet)
+        let actionSheetController = UIAlertController(title: "Change Keyboard Style", message: nil,
+                preferredStyle: .actionSheet)
         let actions = [
             UIAlertAction(title: "Slack", style: .default, handler: { _ in
                 DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1, execute: {
@@ -88,7 +88,6 @@ class ConversationViewController: MessagesViewController {
         actionSheetController.view.tintColor = UIColor(red: 69/255, green: 193/255, blue: 89/255, alpha: 1)
         present(actionSheetController, animated: true, completion: nil)
     }
-    
     // MARK: - Keyboard Style
 
     func slack() {
@@ -135,18 +134,18 @@ class ConversationViewController: MessagesViewController {
             }
         ]
         items.forEach { $0.tintColor = .lightGray }
-        
+
         // We can change the container insets if we want
         messageInputBar.inputTextView.textContainerInset = UIEdgeInsets(top: 8, left: 0, bottom: 8, right: 0)
         messageInputBar.inputTextView.placeholderLabelInsets = UIEdgeInsets(top: 8, left: 5, bottom: 8, right: 5)
-        
+
         // Since we moved the send button to the bottom stack lets set the right stack width to 0
         messageInputBar.setRightStackViewWidthConstant(to: 0, animated: true)
-        
+
         // Finally set the items
         messageInputBar.setStackViewItems(items, forStack: .bottom, animated: true)
     }
-    
+
     func iMessage() {
         defaultStyle()
         messageInputBar.isTranslucent = false
@@ -155,14 +154,16 @@ class ConversationViewController: MessagesViewController {
         messageInputBar.inputTextView.placeholderTextColor = UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 1)
         messageInputBar.inputTextView.textContainerInset = UIEdgeInsets(top: 8, left: 16, bottom: 8, right: 36)
         messageInputBar.inputTextView.placeholderLabelInsets = UIEdgeInsets(top: 8, left: 20, bottom: 8, right: 36)
-        messageInputBar.inputTextView.layer.borderColor = UIColor(red: 200/255, green: 200/255, blue: 200/255, alpha: 1).cgColor
+        messageInputBar.inputTextView.layer.borderColor = UIColor(red: 200/255, green: 200/255, blue: 200/255,
+                alpha: 1).cgColor
         messageInputBar.inputTextView.layer.borderWidth = 1.0
         messageInputBar.inputTextView.layer.cornerRadius = 16.0
         messageInputBar.inputTextView.layer.masksToBounds = true
         messageInputBar.inputTextView.scrollIndicatorInsets = UIEdgeInsets(top: 8, left: 0, bottom: 8, right: 0)
         messageInputBar.setRightStackViewWidthConstant(to: 36, animated: true)
         messageInputBar.setStackViewItems([messageInputBar.sendButton], forStack: .right, animated: true)
-        messageInputBar.sendButton.imageView?.backgroundColor = UIColor(red: 69/255, green: 193/255, blue: 89/255, alpha: 1)
+        messageInputBar.sendButton.imageView?.backgroundColor = UIColor(red: 69/255, green: 193/255, blue: 89/255,
+                alpha: 1)
         messageInputBar.sendButton.contentEdgeInsets = UIEdgeInsets(top: 2, left: 2, bottom: 2, right: 2)
         messageInputBar.sendButton.setSize(CGSize(width: 36, height: 36), animated: true)
         messageInputBar.sendButton.image = #imageLiteral(resourceName: "ic_up")
@@ -171,7 +172,7 @@ class ConversationViewController: MessagesViewController {
         messageInputBar.sendButton.backgroundColor = .clear
         messageInputBar.textViewPadding.right = -38
     }
-    
+
     func defaultStyle() {
         let newMessageInputBar = MessageInputBar()
         newMessageInputBar.sendButton.tintColor = UIColor(red: 69/255, green: 193/255, blue: 89/255, alpha: 1)
@@ -179,9 +180,9 @@ class ConversationViewController: MessagesViewController {
         messageInputBar = newMessageInputBar
         reloadInputViews()
     }
-    
+
     // MARK: - Helpers
-    
+
     func makeButton(named: String) -> InputBarButtonItem {
         return InputBarButtonItem()
             .configure {
@@ -214,7 +215,8 @@ extension ConversationViewController: MessagesDataSource {
         return messageList[indexPath.section]
     }
 
-    func avatar(for message: MessageType, at indexPath: IndexPath, in messagesCollectionView: MessagesCollectionView) -> Avatar {
+    func avatar(for message: MessageType, at indexPath: IndexPath,
+                in messagesCollectionView: MessagesCollectionView) -> Avatar {
         return SampleData.shared.getAvatarFor(sender: message.sender)
     }
 

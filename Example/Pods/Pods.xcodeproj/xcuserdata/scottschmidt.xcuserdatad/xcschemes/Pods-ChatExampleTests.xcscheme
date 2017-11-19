@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
+            buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForTesting = "YES">
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "882B5E531CF7D4B900B6E160"
-               BuildableName = "ChatExampleUITests.xctest"
-               BlueprintName = "ChatExampleUITests"
-               ReferencedContainer = "container:ChatExample.xcodeproj">
+               BlueprintIdentifier = "C6A6A0A151CF397D8B8793366857E9E6"
+               BuildableName = "Pods_ChatExampleTests.framework"
+               BlueprintName = "Pods-ChatExampleTests"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,16 +29,6 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "882B5E531CF7D4B900B6E160"
-               BuildableName = "ChatExampleUITests.xctest"
-               BlueprintName = "ChatExampleUITests"
-               ReferencedContainer = "container:ChatExample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -51,6 +44,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C6A6A0A151CF397D8B8793366857E9E6"
+            BuildableName = "Pods_ChatExampleTests.framework"
+            BlueprintName = "Pods-ChatExampleTests"
+            ReferencedContainer = "container:Pods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
