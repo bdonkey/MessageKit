@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3b63b33-e8ac-4f57-bc23-ecfc00d41a70" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChatExample.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ChatExample.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChatExample.xcodeproj/xcshareddata/xcschemes/ChatExample.xcscheme" afterPath="$PROJECT_DIR$/ChatExample.xcodeproj/xcshareddata/xcschemes/ChatExample.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChatExample.xcodeproj/xcshareddata/xcschemes/ChatExampleUITests.xcscheme" afterPath="$PROJECT_DIR$/ChatExample.xcodeproj/xcshareddata/xcschemes/ChatExampleUITests.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/ConversationViewController.swift" afterPath="$PROJECT_DIR$/Sources/ConversationViewController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/InboxViewController.swift" afterPath="$PROJECT_DIR$/Sources/InboxViewController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MessageKit.xcodeproj/xcshareddata/xcschemes/MessageKit.xcscheme" afterPath="$PROJECT_DIR$/../MessageKit.xcodeproj/xcshareddata/xcschemes/MessageKit.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,31 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConversationViewController.swift" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConversationViewController.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sources/ConversationViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="379" column="33" lean-forward="false" selection-start-line="379" selection-start-column="33" selection-end-line="379" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SampleData.swift" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/SampleData.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1539">
-              <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+            <state relative-caret-position="511">
+              <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -67,8 +40,8 @@
       <file leaf-file-name="SettingsViewController.swift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sources/SettingsViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="456">
+              <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -187,12 +160,12 @@
       <workItem from="1511117634238" duration="490000" />
       <workItem from="1511118714903" duration="320000" />
       <workItem from="1511119049516" duration="7000" />
-      <workItem from="1511119947321" duration="3990000" />
+      <workItem from="1511119947321" duration="4850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4807000" />
+    <option name="totallyTimeSpent" value="5667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="987" extended-state="0" />
@@ -281,22 +254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/SampleData.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/SettingsViewController.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/MockMessage.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -313,18 +270,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ConversationViewController.swift">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="379" column="33" lean-forward="false" selection-start-line="379" selection-start-column="33" selection-end-line="379" selection-end-column="33" />
+        <state relative-caret-position="361">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Sources/SampleData.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="1539">
+          <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/SettingsViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/ConversationViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="28" />
           <folding />
         </state>
       </provider>
